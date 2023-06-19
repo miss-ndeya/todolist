@@ -1,0 +1,23 @@
+body, .btn, button{
+    background-color: #0c013d;
+}
+body{height: 100vh;}
+
+ul{list-style: none;}
+
+li{margin-top: 10px;}
+
+button:hover{
+    background-color: #fff;
+    color: #0c013d;
+}
+.form-control:hover, .form-control:active, .form-control:focus{
+    box-shadow: none;
+}
+button{
+    outline: none;
+    border: none;
+    color: white;
+    padding: 5px;
+    float: right; 
+}
